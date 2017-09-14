@@ -5,7 +5,7 @@ public class HelloWorld{
     HelloWorld2 hw2 = new HelloWorld2();
     hw2.setName("Hello World 2...");
     hw2.setAge(20);
-    System.out.println(hw2.getName()+hw2.getAge());
+    System.out.println(hw2.getName()+hw2.getAge());//20170914
   }
 }
 private class HelloWorld2{
