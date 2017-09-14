@@ -2,7 +2,10 @@
 # This is the first GitHub project.
 public class HelloWorld{
   public static void main(String[] args){
-    System.out.println("Hello World...");
+    HelloWorld2 hw2 = new HelloWorld2();
+    hw2.setName("Hello World 2...");
+    hw2.setAge(20);
+    System.out.println(hw2.getName()+hw2.getAge());
   }
 }
 private class HelloWorld2{
